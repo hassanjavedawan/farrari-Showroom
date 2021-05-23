@@ -1,0 +1,64 @@
+/** @format */
+
+body {
+  height: 100vh;
+  background-size: Cover;
+  background-position: Center;
+  backface-visibility: hidden;
+  animation: animate 16s ease-in-out infinite;
+  font-family: Time New Roman !important;
+
+}
+
+.navbar-brand {
+  font-family: Brush Script MT !important;
+  font-size: 34pt !important;
+  text-decoration: underline !important;
+
+}
+
+.nav-item {
+  width: 90px !important;
+  text-align: center !important;
+  text-transform: uppercase;
+}
+.active {
+  font-weight: bold !important;
+}
+.nav-item:hover {
+  background-color: white !important;
+  color: black !important;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.nav-item a:hover {
+  color: black !important;
+}
+
+.title h1 {
+  position: fixed;
+  bottom: 40px;
+  right: 30px;
+  text-decoration: underline;
+  color: #fff;
+  font-size: 78pt;
+  font-family: Brush Script MT;
+}
+@keyframes animate {
+  0% {
+    background-image: url(images/car6.jpg);
+  }
+  25% {
+    background-image: url(images/car1.jpg);
+  }
+  50% {
+    background-image: url(images/car2.jpg);
+  }
+  75% {
+    background-image: url(images/car3.jpg);
+  }
+  100% {
+    background-image: url(images/car4.jpg);
+  }
+}

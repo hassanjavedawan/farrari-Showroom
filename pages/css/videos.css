@@ -1,0 +1,58 @@
+/** @format */
+
+body {
+  background-image: url("../../images/car2.jpg");
+  background-size: Cover !important;
+  background-position: Center !important;
+  background-repeat: repeat-y !important;
+  font-family: Time New Roman !important;
+}
+
+.navbar-brand {
+  font-family: Brush Script MT !important;
+  font-size: 34pt !important;
+  text-decoration: underline !important;
+}
+.active {
+  font-weight: bold !important;
+}
+.nav-item {
+  width: 90px !important;
+  text-align: center !important;
+  text-transform: uppercase;
+}
+.nav-item:hover {
+  background-color: white !important;
+  color: black !important;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.nav-item a:hover {
+  color: black !important;
+}
+.heading {
+  text-align: center;
+  font-family: Time New Roman;
+  color: #fff;
+  text-decoration: underline;
+}
+.card {
+  position: relative !important;
+  overflow: hidden !important;
+  border: none !important;
+  box-sizing: border-box !important;
+}
+.card-img-top {
+  height: calc(300px - 30px) !important;
+  transition: transform 2s !important;
+}
+.card:hover .card-img-top {
+  transform: scale(1.4) !important;
+}
+/* media query */
+@media only screen and (max-width: 600px) {
+  .card {
+    margin-top: 10px !important;
+  }
+}
